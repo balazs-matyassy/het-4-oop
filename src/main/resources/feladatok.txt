@@ -13,3 +13,6 @@ hashCode
 az osztály legyen final (ne lehessen leszármazott osztályokat létrehozni)
 
 2. távolság megvalósítása
+adjunk hozzá egy KM_PER_DEG = 111.0 konstanst
+hozzunk létre egy statikus getDistance(City city1, City city2) segédmetódust
+Math.sqrt(különbségek négyzete)
