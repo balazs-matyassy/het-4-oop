@@ -26,3 +26,11 @@ getTime (absztrakt)
 getReturnTime (final, travel time * 2)
 getPrice (absztrakt)
 getReturnPrice (final, price * 2)
+
+4. TrainTravel osztály final
+time = distance / 100.0
+price = distance * 20.0
+
+5. AirTravel osztály final
+time = 2.0 + distance / 800.0
+price = 20000.0 forint (distance <= 1000.0), 50000 (distance <= 2500.0), egyébként 100000.
