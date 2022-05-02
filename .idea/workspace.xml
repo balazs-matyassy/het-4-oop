@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: 2. feladat">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/feladatok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feladatok.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651503445651</updated>
-      <workItem from="1651503451562" duration="2272000" />
+      <workItem from="1651503451562" duration="2554000" />
     </task>
     <task id="LOCAL-00001" summary="bm: update">
       <created>1651504032374</created>
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651505606979</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bm: 2. feladat">
+      <created>1651505879187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651505879187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

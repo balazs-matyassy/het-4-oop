@@ -17,14 +17,14 @@ adjunk hozzá egy KM_PER_DEG = 111.0 konstanst
 hozzunk létre egy statikus getDistance(City city1, City city2) segédmetódust
 Math.sqrt(különbségek négyzete)
 
-3. absztrakt Travel osztály létrehozása
+3. absztrakt Travel osztály létrehozása (első közelítésben nem kötelező absztrakt osztály létrehozni)
 cityFrom
 cityTo
 getDistance final
 getReturnDistance (final, distance * 2)
-getTime (absztrakt)
+getTime (absztrakt) -> ha nem absztrakt, akkor return Double.MAX_VALUE
 getReturnTime (final, travel time * 2)
-getPrice (absztrakt)
+getPrice (absztrakt) -> ha nem absztrakt, akkor return Double.MAX_VALUE
 getReturnPrice (final, price * 2)
 
 4. TrainTravel osztály final
@@ -34,3 +34,6 @@ price = distance * 20.0
 5. AirTravel osztály final
 time = 2.0 + distance / 800.0
 price = 20000.0 forint (distance <= 1000.0), 50000 (distance <= 2500.0), egyébként 100000.
+
+6. Main osztály (és main metódus) létrehozása
+5 Város létrehozása
