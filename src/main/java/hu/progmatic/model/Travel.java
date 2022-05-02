@@ -1,6 +1,6 @@
 package hu.progmatic.model;
 
-public class Travel {
+public abstract class Travel {
     private City cityFrom;
     private City cityTo;
 
@@ -36,25 +36,19 @@ public class Travel {
         return getDistance() * 2.0;
     }
 
-    public double getTime() {
-        return Double.MAX_VALUE;
-    }
+    public abstract double getTime();
 
     public final double getReturnTime() {
         return getTime() * 2.0;
     }
 
-    public double getPrice() {
-        return Double.MAX_VALUE;
-    }
+    public abstract double getPrice();
 
     public final double getReturnPrice() {
         return getPrice() * 2.0;
     }
 
-    public String getVehicle() {
-        return null;
-    }
+    public abstract String getVehicle();
 
     @Override
     public final String toString() {
