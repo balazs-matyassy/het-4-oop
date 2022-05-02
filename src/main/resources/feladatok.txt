@@ -1,0 +1,15 @@
+1.City osztály létrehozása
+final String id
+String name
+String countryCode
+double latitude
+double longitude
+
+konstruktorok
+getterek + setterek
+equals
+hashCode
+
+az osztály legyen final (ne lehessen leszármazott osztályokat létrehozni)
+
+2. távolság megvalósítása
