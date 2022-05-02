@@ -16,3 +16,13 @@ az osztály legyen final (ne lehessen leszármazott osztályokat létrehozni)
 adjunk hozzá egy KM_PER_DEG = 111.0 konstanst
 hozzunk létre egy statikus getDistance(City city1, City city2) segédmetódust
 Math.sqrt(különbségek négyzete)
+
+3. absztrakt Travel osztály létrehozása
+cityFrom
+cityTo
+getDistance final
+getReturnDistance (final, distance * 2)
+getTime (absztrakt)
+getReturnTime (final, travel time * 2)
+getPrice (absztrakt)
+getReturnPrice (final, price * 2)

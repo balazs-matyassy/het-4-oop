@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: 2. feladat">
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/feladatok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feladatok.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651503445651</updated>
-      <workItem from="1651503451562" duration="1709000" />
+      <workItem from="1651503451562" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="bm: update">
       <created>1651504032374</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651505269305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bm: 2. feladat">
+      <created>1651505320324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651505320324</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
