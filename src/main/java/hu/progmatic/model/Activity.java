@@ -1,6 +1,6 @@
 package hu.progmatic.model;
 
-public final class Activity {
+public final class Activity implements HasTime {
     private String name;
     private double time;
 

@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: 7. feladat">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/HasPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/HasTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651503445651</updated>
-      <workItem from="1651503451562" duration="8198000" />
+      <workItem from="1651503451562" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="bm: update">
       <created>1651504032374</created>
@@ -203,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651512118666</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="bm: 7. feladat">
+      <created>1651512254705</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651512254705</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

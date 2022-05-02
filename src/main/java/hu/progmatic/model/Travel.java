@@ -21,7 +21,7 @@ package hu.progmatic.model;
  * emiatt azokat KÖTELEZŐ "kicserélni".
  * Az abstract kulcsszó segítségével meg tudjuk akadályozni, hogy véletlenül megfeledkezzünk a "cseréről".
  */
-public abstract class Travel {
+public abstract class Travel implements HasTime, HasPrice {
     private City cityFrom;
     private City cityTo;
 

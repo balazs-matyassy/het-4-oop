@@ -18,12 +18,31 @@ public class Main {
                 new Product("mogyoró", 500.0),
                 new Product("sör", 169.0)
         };
+        HasTime[] hasTimes = {
+                travels[0],
+                travels[1],
+                activities[0],
+                activities[1]
+        };
+        HasPrice[] hasPrices = {
+                travels[0],
+                travels[1],
+                products[0],
+                products[1]
+        };
 
+        System.out.println("Összes eltöltött idő: " + getTotalTime(hasTimes));
         System.out.println("Összes utazással töltött idő: " + getTotalTime(travels));
+        System.out.println("Összes elköltött pénz:" + getTotalPrice(hasPrices));
         System.out.println("Összes utazásra költött pénz: " + getTotalPrice(travels));
     }
 
-    private static double getTotalTime(Travel[] travels) {
+    /*
+    Azért nem tudjuk az Activity-ket megadni, mivel azoknak pl. nincs distance metódusa.
+    A distance metódusra SEMMI szükség nincsen az összes idő számítása szempontjából,
+    tehát a felesleges függőség miatt jelentősen szűkítem az amúgy általános metódusom felhasználhatóságát.
+     */
+    /*private static double getTotalTime(Travel[] travels) {
         double total = 0.0;
 
         for (Travel travel : travels) {
@@ -31,23 +50,35 @@ public class Main {
         }
 
         return total;
-    }
+    }*/
 
-    private static double getTotalTime(Activity[] activities) {
-        return 0.0;
-    }
-
-    private static double getTotalPrice(Travel[] travels) {
+    private static double getTotalTime(HasTime[] hasTimes) {
         double total = 0.0;
 
-        for (Travel travel : travels) {
-            total += travel.getPrice();
+        for (HasTime hasTime : hasTimes) {
+            total += hasTime.getTime();
         }
 
         return total;
     }
 
-    private static double getTotalPrice(Product[] products) {
-        return 0.0;
+    private static double getTotalPrice(HasPrice[] hasPrices) {
+        double total = 0.0;
+
+        for (HasPrice hasPrice : hasPrices) {
+            total += hasPrice.getPrice();
+        }
+
+        return total;
     }
+
+    /*private static double getTotalPrice(Product[] products) {
+        double total = 0.0;
+
+        for (Product product : products) {
+            total += product.getPrice();
+        }
+
+        return total;
+    }*/
 }

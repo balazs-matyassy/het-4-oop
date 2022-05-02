@@ -1,6 +1,6 @@
 package hu.progmatic.model;
 
-public final class Product {
+public final class Product implements HasPrice {
     private String name;
     private double price;
 
