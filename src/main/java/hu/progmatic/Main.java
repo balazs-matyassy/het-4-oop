@@ -19,4 +19,12 @@ public class Main {
                 new Product("sör", 169.0)
         };
     }
+
+    private static double getTotalTime(Travel[] travels) {
+        return 0.0;
+    }
+
+    private static double getTotalPrice(Travel[] travels) {
+        return 0.0;
+    }
 }

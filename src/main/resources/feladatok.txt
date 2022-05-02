@@ -37,3 +37,6 @@ price = 20000.0 forint (distance <= 1000.0), 50000 (distance <= 2500.0), egyébk
 
 6. Main osztály (és main metódus) létrehozása
 5 Város létrehozása
+
+7. getTotalTime és getTotalPrice statikus segédmetódusok implementálása
+(összesen mennyi időt töltöttünk utazásokkal és mennyi pénzt költöttünk rá?)
