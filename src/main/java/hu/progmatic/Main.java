@@ -35,6 +35,8 @@ public class Main {
         System.out.println("Összes utazással töltött idő: " + getTotalTime(travels));
         System.out.println("Összes elköltött pénz:" + getTotalPrice(hasPrices));
         System.out.println("Összes utazásra költött pénz: " + getTotalPrice(travels));
+        System.out.println("P betűs közlekedési eszközökön töltött idő: " + getTotalTimeSpentOnVehiclesStartingWithP(hasTimes));
+        System.out.println("Repülön töltött összes idő: " + getTotalTimeSpentOnPlane(hasTimes));
     }
 
     /*
@@ -57,6 +59,34 @@ public class Main {
 
         for (HasTime hasTime : hasTimes) {
             total += hasTime.getTime();
+        }
+
+        return total;
+    }
+
+    private static double getTotalTimeSpentOnVehiclesStartingWithP(HasTime[] hasTimes) {
+        double total = 0.0;
+
+        for (HasTime hasTime : hasTimes) {
+            if (hasTime instanceof Travel) {
+                Travel travel = (Travel) hasTime;
+
+                if (travel.getVehicle().startsWith("P")) {
+                    total += travel.getTime();
+                }
+            }
+        }
+
+        return total;
+    }
+
+    public static double getTotalTimeSpentOnPlane(HasTime[] hasTimes) {
+        double total = 0.0;
+
+        for (HasTime hasTime : hasTimes) {
+            if (hasTime instanceof  PlaneTravel) {
+                total += hasTime.getTime();
+            }
         }
 
         return total;
