@@ -24,8 +24,8 @@ public final class City {
     }
 
     public static double getDistance(City cityFrom, City cityTo) {
-        double dlat = cityFrom.latitude - cityTo.latitude;
-        double dlong = cityFrom.longitude - cityTo.longitude;
+        double dlat = (cityFrom.latitude - cityTo.latitude) * KM_PER_DEG;
+        double dlong = (cityFrom.longitude - cityTo.longitude) * KM_PER_DEG;
 
         return Math.sqrt(dlat * dlat + dlong * dlong);
     }
