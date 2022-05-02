@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: feladatok">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/TrainTravel.java" afterDir="false" />
+    <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: 3. + 4. feladat">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +37,30 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.progmatic.Main" />
+      <module name="het-4-oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.progmatic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651503445651</updated>
-      <workItem from="1651503451562" duration="3994000" />
+      <workItem from="1651503451562" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="bm: update">
       <created>1651504032374</created>
@@ -120,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651507153711</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bm: 3. + 4. feladat">
+      <created>1651507656287</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651507656288</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +170,7 @@
     <MESSAGE value="bm: 1. feladat" />
     <MESSAGE value="bm: 2. feladat" />
     <MESSAGE value="bm: feladatok" />
-    <option name="LAST_COMMIT_MESSAGE" value="bm: feladatok" />
+    <MESSAGE value="bm: 3. + 4. feladat" />
+    <option name="LAST_COMMIT_MESSAGE" value="bm: 3. + 4. feladat" />
   </component>
 </project>
