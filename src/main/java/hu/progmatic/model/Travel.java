@@ -57,7 +57,7 @@ public class Travel {
     }
 
     @Override
-    public String toString() {
+    public final String toString() {
         return "Travel{" +
                 "cityFrom=" + cityFrom +
                 ", cityTo=" + cityTo +
