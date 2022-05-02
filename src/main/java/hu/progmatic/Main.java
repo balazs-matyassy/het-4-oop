@@ -18,13 +18,28 @@ public class Main {
                 new Product("mogyoró", 500.0),
                 new Product("sör", 169.0)
         };
+
+        System.out.println("Összes utazással töltött idő: " + getTotalTime(travels));
+        System.out.println("Összes utazásra költött pénz: " + getTotalPrice(travels));
     }
 
     private static double getTotalTime(Travel[] travels) {
-        return 0.0;
+        double total = 0.0;
+
+        for (Travel travel : travels) {
+            total += travel.getTime();
+        }
+
+        return total;
     }
 
     private static double getTotalPrice(Travel[] travels) {
-        return 0.0;
+        double total = 0.0;
+
+        for (Travel travel : travels) {
+            total += travel.getPrice();
+        }
+
+        return total;
     }
 }
