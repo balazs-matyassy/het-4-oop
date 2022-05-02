@@ -33,6 +33,10 @@ public class Main {
         return total;
     }
 
+    private static double getTotalTime(Activity[] activities) {
+        return 0.0;
+    }
+
     private static double getTotalPrice(Travel[] travels) {
         double total = 0.0;
 
@@ -41,5 +45,9 @@ public class Main {
         }
 
         return total;
+    }
+
+    private static double getTotalPrice(Product[] products) {
+        return 0.0;
     }
 }
