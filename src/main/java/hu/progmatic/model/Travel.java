@@ -1,5 +1,26 @@
 package hu.progmatic.model;
 
+/**
+ * Öröklődés:
+ * - halmaz - részhalmaz kapcsolat (vonatos utazások is utazások)
+ * - programozói szemmel nagy segítség az ősosztály metódusainak az átvétele,
+ *      csak a szükséges metódusok implementációját kell "kicserélni" @Override segítségével.
+ *
+ * - final: NEM szabad megváltoztatni az implementációt
+ * - -: fejlesztőre van bízva (van értelmes default implementáció, ami változhat)
+ * - absztact: KÖTELEZŐ megváltoztatni az implementációt (nincs értelmes default)
+ *
+ * Utazások általános (distance, returnDistance, returnTime, returnPrice)
+ * és közlekedési eszközre jellemző metódusokkal rendelkeznek (time, price, vehicle).
+ *
+ * Az általános metódusok soha nem változhatnak (mindegy, hogy milyen közlekedési eszközről beszélünk),
+ * emiatt a final kulcsszó segítségével meg tudjuk akadályozni, hogy véletlenül felülírjuk a metódusokat.
+ * (Ezeket NEM szabad "kicserélni".)
+ *
+ * A közlekedési eszközre jellemző metódusokról viszont semmit nem tudunk általánosságban mondani,
+ * emiatt azokat KÖTELEZŐ "kicserélni".
+ * Az abstract kulcsszó segítségével meg tudjuk akadályozni, hogy véletlenül megfeledkezzünk a "cseréről".
+ */
 public abstract class Travel {
     private City cityFrom;
     private City cityTo;
