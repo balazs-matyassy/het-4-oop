@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: 2. feladat">
+    <list default="true" id="47fce5f5-a3b3-49e4-b595-941a9b654219" name="Changes" comment="bm: feladatok">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/progmatic/model/Travel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/feladatok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/feladatok.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651503445651</updated>
-      <workItem from="1651503451562" duration="2554000" />
+      <workItem from="1651503451562" duration="3510000" />
     </task>
     <task id="LOCAL-00001" summary="bm: update">
       <created>1651504032374</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651505879187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bm: feladatok">
+      <created>1651506247417</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651506247421</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="bm: update" />
     <MESSAGE value="bm: 1. feladat" />
     <MESSAGE value="bm: 2. feladat" />
-    <option name="LAST_COMMIT_MESSAGE" value="bm: 2. feladat" />
+    <MESSAGE value="bm: feladatok" />
+    <option name="LAST_COMMIT_MESSAGE" value="bm: feladatok" />
   </component>
 </project>
