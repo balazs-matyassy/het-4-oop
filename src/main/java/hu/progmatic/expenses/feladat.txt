@@ -1,0 +1,20 @@
+Van egy emberünk, aki szeretne havi kimutatást a költségeiről.
+Rendelt egy programot, ami annyira népszerű lett, hogy a barátai is elkérték tőle.
+Az emberünk két területen szeretné megfigyelni a kiadásait:
+- Konditermeknél
+- Előfizetéseknél
+
+A konditermekbe egy klubtagságival lehet belépni:
+- Blue
+- Bronze (van alapdíja, 50% kedvezmény)
+- Silver (magasabb díj, 5 ingyenes belépés + 50% kedvezmény)
+- Gold (magas díj, ingyenes belépés)
+
+A klubtagságik tartalmazzák a tulajdonos és a Konditerem adatait.
+Egy ember több helyre vehet klubtagságit.
+Minden klubtagsági tárolja még a belépések számát, az eköltött összeget.
+(Tipp: addEntry...)
+
+A Konditermeknek van neve és belépésenkénti ára.
+
+Vannak egyéb előfizetések.
